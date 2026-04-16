@@ -1,6 +1,3 @@
-# requirements.txt
-snowflake-snowpark-python
-streamlit    
 
 # Streamlit in Snowflake apps run with a pre-installed version of the Streamlit library.
 # To use a different version of the Streamlit library, you must add an External Access Integration to allow package downloads from PyPI or from another repository.
@@ -19,3 +16,17 @@ dependencies = [
 [tool.uv]
 # earlier versions of numba require a python version < 3.11
 constraint-dependencies = ["numba>=0.56.0"]
+
+[connections.snowflake]
+account = "HYHNDAA-DWB36199"
+user = "MANGESHSNFLK1"
+private_key_file = "Shreeganganganpatayenamah@001"
+role = "SYSADMIN"
+warehouse = "COMPUTE_WH"
+database = "SMOOTHIES"
+schema = "PUBLIC"
+client_session_keep_alive = true
+
+# requirements.txt
+snowflake-snowpark-python
+streamlit    
