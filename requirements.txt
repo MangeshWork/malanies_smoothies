@@ -1,3 +1,7 @@
+# requirements.txt
+snowflake-snowpark-python
+streamlit    
+
 # Streamlit in Snowflake apps run with a pre-installed version of the Streamlit library.
 # To use a different version of the Streamlit library, you must add an External Access Integration to allow package downloads from PyPI or from another repository.
 # Please visit the Streamlit in Snowflake docs (https://docs.snowflake.com/en/developer-guide/streamlit/additional-features#external-network-access-in-sis) to learn more on how to set up an External Access Integration.
