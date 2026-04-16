@@ -20,7 +20,7 @@ constraint-dependencies = ["numba>=0.56.0"]
 [connections.snowflake]
 account = "HYHNDAA-DWB36199"
 user = "MANGESHSNFLK1"
-private_key_file = "Shreeganganganpatayenamah@001"
+private_key_file = "Sxxxxxxxxxxxx"
 role = "SYSADMIN"
 warehouse = "COMPUTE_WH"
 database = "SMOOTHIES"
